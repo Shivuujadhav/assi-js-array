@@ -1,0 +1,68 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="array.css">
+</head>
+<body>
+    <h1 style="color: gray;"> 
+		Array Oprations 
+	</h1> 
+	<!--<h2>User Data Management</h2> -->
+
+	<div id="formContainer"> 
+		<label for="nameInput"> 
+			Name: 
+		</label> 
+		<input type="text"
+			id="nameInput"
+			placeholder="Enter your name"> 
+		<label for="emailInput"> 
+			Email I'd: 
+		</label> 
+		<input type="email"
+			id="emailInput"
+			placeholder="Enter your email"> 
+		<label for="numberInput"> 
+			Mobile Details: 
+		</label> 
+		<input type="text"
+			id="numberInput"
+			placeholder="Enter your mobile details"> 
+		
+		<button onclick="appendData()"> 
+			Add 
+		</button> 
+		<button onclick="addElementToTop()"> 
+			Add Top 
+		</button> 
+
+        <button onclick="removeElementAtIndex()"> 
+			removeElementAtIndex
+		</button> 
+		<button onclick="addElementAtIndex()"> 
+			addElementAtIndex
+		</button> 
+         
+	</div> 
+	<table id="outputTable"> 
+		<tr> 
+			<th>Name</th> 
+			<th>Email</th> 
+			<th>Mobile Details</th>  
+			<th>Action</th> 
+		</tr> 
+	</table> 
+	
+	<script src="createTableView.js"></script>
+    <script src="appendData.js"></script>
+    <script src="removeLastElement.js"></script>
+    <!--<script src="removeElementAtIndex.js"></script>-->
+    <script src="addElementToTop.js"></script>
+    <!--<script src="addElementAtIndex.js"></script>-->
+    <!--<script src="parseCSVString.js"></script>-->
+</body> 
+
+</body>
+</html>
